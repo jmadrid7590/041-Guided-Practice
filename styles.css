@@ -1,0 +1,36 @@
+body {
+    font-family: arial;
+}
+
+img {
+    width: 200px;
+    display: block;
+    clear: both;
+}
+
+li {
+    background: lightblue;
+    float: left;
+}
+
+ul {
+    list-style: none;
+    overflow: auto;
+}
+
+/*Comment this part out to show the before / after */
+h1,
+img,
+p {
+    margin: 0 20px;
+}
+
+img {
+    margin: 30px 40px;
+}
+
+li {
+    padding-bottom: 25px;
+    margin-left: 10px;
+    border: 5px dashed white;
+}
